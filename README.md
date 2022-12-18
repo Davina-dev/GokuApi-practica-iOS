@@ -5,7 +5,7 @@
 
 
 
- # ¿ Te animas a practicar ?
+ # Práctica 
 
 
 
