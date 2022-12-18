@@ -9,10 +9,10 @@
 
 
 
-- [ <img style={ width=5%}  src="https://media1.giphy.com/media/mZSN4XYLNh0t0vXRZF/giphy.webp?cid=ecf05e47y1w8jl5riln4t2b0d3t1qtghekcwdhf748mkwq31&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>
-...Pasos a seguir ](./Practica.pdf) 
+[ <img style={ width=5%}  src="https://media2.giphy.com/media/dieGgjBPDS9jy/giphy.webp?cid=ecf05e473djor0yx8e2bdujbplhfnea8z52wwsfsn4jbnzjs&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>
+...Práctica... ](./Practica.pdf) 
 
-- [   <img style={ width=2%}  src="https://media3.giphy.com/media/gMTlGp8Lr6eI/giphy.webp?cid=ecf05e47y1w8jl5riln4t2b0d3t1qtghekcwdhf748mkwq31&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>... Respuestas de la práctica](./ProyectoGoku)
+[   <img style={ width=5%}  src="https://media4.giphy.com/media/1S5zDKW1VFAUU/giphy.webp?cid=ecf05e47n0bu1wieyj0yxo1s56kr5hb6hg3x0k09tv76rpxd&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>... Proyecto...](./ProyectoGoku)
 
 __________
   ⌨️ with ❤️ by [Davina](https://www.linkedin.com/in/davinamedina/) 😊
