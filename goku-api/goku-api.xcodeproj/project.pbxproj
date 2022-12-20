@@ -18,6 +18,9 @@
 		963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963E266B2950C44D00B545F7 /* TableViewcontroller.xib */; };
 		967390C42951DBF500CAE8DA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967390C22951DBF500CAE8DA /* TableCell.swift */; };
 		967390C52951DBF500CAE8DA /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967390C32951DBF500CAE8DA /* TableCell.xib */; };
+		968021502952026200783ABB /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680214F2952026200783ABB /* HomeTabBarController.swift */; };
+		9680215729520A5400783ABB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680215529520A5400783ABB /* CollectionViewController.swift */; };
+		9680215829520A5400783ABB /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9680215629520A5400783ABB /* CollectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		963E266B2950C44D00B545F7 /* TableViewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewcontroller.xib; sourceTree = "<group>"; };
 		967390C22951DBF500CAE8DA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		967390C32951DBF500CAE8DA /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		9680214F2952026200783ABB /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		9680215529520A5400783ABB /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		9680215629520A5400783ABB /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +147,9 @@
 		963E26612950BED300B545F7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				963E26652950BF9A00B545F7 /* CollectionView */,
+				9680214E2952021C00783ABB /* HomeTabBar */,
 				963E26642950BF8F00B545F7 /* TableView */,
+				963E26652950BF9A00B545F7 /* CollectionView */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -160,6 +167,8 @@
 		963E26652950BF9A00B545F7 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				9680215529520A5400783ABB /* CollectionViewController.swift */,
+				9680215629520A5400783ABB /* CollectionViewController.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -171,6 +180,14 @@
 				967390C32951DBF500CAE8DA /* TableCell.xib */,
 			);
 			path = TableCell;
+			sourceTree = "<group>";
+		};
+		9680214E2952021C00783ABB /* HomeTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9680214F2952026200783ABB /* HomeTabBarController.swift */,
+			);
+			path = HomeTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963E263C2950BD9E00B545F7 /* LaunchScreen.storyboard in Resources */,
+				9680215829520A5400783ABB /* CollectionViewController.xib in Resources */,
 				963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */,
 				967390C52951DBF500CAE8DA /* TableCell.xib in Resources */,
 				963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */,
@@ -305,10 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9680215729520A5400783ABB /* CollectionViewController.swift in Sources */,
 				963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */,
 				963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */,
 				967390C42951DBF500CAE8DA /* TableCell.swift in Sources */,
 				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
+				968021502952026200783ABB /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

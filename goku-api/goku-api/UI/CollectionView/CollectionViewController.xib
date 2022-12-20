@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewcontroller" customModule="goku_api" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewController" customModule="goku_api" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="V0K-tP-Hoo" id="gbL-75-9b1"/>
+                <outlet property="collectionView" destination="hRU-pS-4RI" id="jgE-jA-QNv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,28 +19,31 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="V0K-tP-Hoo">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="hRU-pS-4RI">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lpP-B2-3v0">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemGray5Color"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="V0K-tP-Hoo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="82H-FA-TWL"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="V0K-tP-Hoo" secondAttribute="bottom" id="9I4-Pd-jFY"/>
-                <constraint firstItem="V0K-tP-Hoo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="TM5-tM-k0h"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="V0K-tP-Hoo" secondAttribute="trailing" id="yRq-Xh-Amp"/>
+                <constraint firstItem="hRU-pS-4RI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6zz-5B-wXK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hRU-pS-4RI" secondAttribute="bottom" id="itA-ue-3vw"/>
+                <constraint firstItem="hRU-pS-4RI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nn3-GG-NRt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hRU-pS-4RI" secondAttribute="trailing" id="xlm-5m-d6F"/>
             </constraints>
-            <point key="canvasLocation" x="-5" y="-11"/>
+            <point key="canvasLocation" x="77" y="-11"/>
         </view>
     </objects>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
