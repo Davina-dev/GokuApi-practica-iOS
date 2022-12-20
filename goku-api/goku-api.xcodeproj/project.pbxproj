@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E262F2950BD9E00B545F7 /* AppDelegate.swift */; };
+		963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26312950BD9E00B545F7 /* SceneDelegate.swift */; };
+		963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963E26382950BD9E00B545F7 /* Assets.xcassets */; };
+		963E263C2950BD9E00B545F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963E263A2950BD9E00B545F7 /* LaunchScreen.storyboard */; };
+		963E26472950BD9F00B545F7 /* goku_apiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26462950BD9F00B545F7 /* goku_apiTests.swift */; };
+		963E26512950BD9F00B545F7 /* goku_apiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26502950BD9F00B545F7 /* goku_apiUITests.swift */; };
+		963E26532950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */; };
+		963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E266A2950C44D00B545F7 /* TableViewcontroller.swift */; };
+		963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963E266B2950C44D00B545F7 /* TableViewcontroller.xib */; };
+		967390C42951DBF500CAE8DA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967390C22951DBF500CAE8DA /* TableCell.swift */; };
+		967390C52951DBF500CAE8DA /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967390C32951DBF500CAE8DA /* TableCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963E26432950BD9F00B545F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963E26242950BD9E00B545F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963E262B2950BD9E00B545F7;
+			remoteInfo = "goku-api";
+		};
+		963E264D2950BD9F00B545F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963E26242950BD9E00B545F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963E262B2950BD9E00B545F7;
+			remoteInfo = "goku-api";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963E262C2950BD9E00B545F7 /* goku-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goku-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963E262F2950BD9E00B545F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963E26312950BD9E00B545F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		963E26382950BD9E00B545F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963E263B2950BD9E00B545F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963E263D2950BD9E00B545F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963E26422950BD9F00B545F7 /* goku-apiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goku-apiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963E26462950BD9F00B545F7 /* goku_apiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiTests.swift; sourceTree = "<group>"; };
+		963E264C2950BD9F00B545F7 /* goku-apiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goku-apiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963E26502950BD9F00B545F7 /* goku_apiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiUITests.swift; sourceTree = "<group>"; };
+		963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		963E266A2950C44D00B545F7 /* TableViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewcontroller.swift; sourceTree = "<group>"; };
+		963E266B2950C44D00B545F7 /* TableViewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewcontroller.xib; sourceTree = "<group>"; };
+		967390C22951DBF500CAE8DA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		967390C32951DBF500CAE8DA /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963E26292950BD9E00B545F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E263F2950BD9F00B545F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E26492950BD9F00B545F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963E26232950BD9E00B545F7 = {
+			isa = PBXGroup;
+			children = (
+				963E262E2950BD9E00B545F7 /* goku-api */,
+				963E26452950BD9F00B545F7 /* goku-apiTests */,
+				963E264F2950BD9F00B545F7 /* goku-apiUITests */,
+				963E262D2950BD9E00B545F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963E262D2950BD9E00B545F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963E262C2950BD9E00B545F7 /* goku-api.app */,
+				963E26422950BD9F00B545F7 /* goku-apiTests.xctest */,
+				963E264C2950BD9F00B545F7 /* goku-apiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963E262E2950BD9E00B545F7 /* goku-api */ = {
+			isa = PBXGroup;
+			children = (
+				963E26612950BED300B545F7 /* UI */,
+				963E265F2950BEB000B545F7 /* App */,
+				963E26382950BD9E00B545F7 /* Assets.xcassets */,
+				963E263A2950BD9E00B545F7 /* LaunchScreen.storyboard */,
+				963E263D2950BD9E00B545F7 /* Info.plist */,
+			);
+			path = "goku-api";
+			sourceTree = "<group>";
+		};
+		963E26452950BD9F00B545F7 /* goku-apiTests */ = {
+			isa = PBXGroup;
+			children = (
+				963E26462950BD9F00B545F7 /* goku_apiTests.swift */,
+			);
+			path = "goku-apiTests";
+			sourceTree = "<group>";
+		};
+		963E264F2950BD9F00B545F7 /* goku-apiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				963E26502950BD9F00B545F7 /* goku_apiUITests.swift */,
+				963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */,
+			);
+			path = "goku-apiUITests";
+			sourceTree = "<group>";
+		};
+		963E265F2950BEB000B545F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				963E26312950BD9E00B545F7 /* SceneDelegate.swift */,
+				963E262F2950BD9E00B545F7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		963E26612950BED300B545F7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				963E26652950BF9A00B545F7 /* CollectionView */,
+				963E26642950BF8F00B545F7 /* TableView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		963E26642950BF8F00B545F7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				967390C12951DBAC00CAE8DA /* TableCell */,
+				963E266A2950C44D00B545F7 /* TableViewcontroller.swift */,
+				963E266B2950C44D00B545F7 /* TableViewcontroller.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		963E26652950BF9A00B545F7 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		967390C12951DBAC00CAE8DA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				967390C22951DBF500CAE8DA /* TableCell.swift */,
+				967390C32951DBF500CAE8DA /* TableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963E262B2950BD9E00B545F7 /* goku-api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963E26562950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-api" */;
+			buildPhases = (
+				963E26282950BD9E00B545F7 /* Sources */,
+				963E26292950BD9E00B545F7 /* Frameworks */,
+				963E262A2950BD9E00B545F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "goku-api";
+			productName = "goku-api";
+			productReference = 963E262C2950BD9E00B545F7 /* goku-api.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963E26412950BD9F00B545F7 /* goku-apiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963E26592950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-apiTests" */;
+			buildPhases = (
+				963E263E2950BD9F00B545F7 /* Sources */,
+				963E263F2950BD9F00B545F7 /* Frameworks */,
+				963E26402950BD9F00B545F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963E26442950BD9F00B545F7 /* PBXTargetDependency */,
+			);
+			name = "goku-apiTests";
+			productName = "goku-apiTests";
+			productReference = 963E26422950BD9F00B545F7 /* goku-apiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		963E264B2950BD9F00B545F7 /* goku-apiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963E265C2950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-apiUITests" */;
+			buildPhases = (
+				963E26482950BD9F00B545F7 /* Sources */,
+				963E26492950BD9F00B545F7 /* Frameworks */,
+				963E264A2950BD9F00B545F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963E264E2950BD9F00B545F7 /* PBXTargetDependency */,
+			);
+			name = "goku-apiUITests";
+			productName = "goku-apiUITests";
+			productReference = 963E264C2950BD9F00B545F7 /* goku-apiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963E26242950BD9E00B545F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					963E262B2950BD9E00B545F7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					963E26412950BD9F00B545F7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 963E262B2950BD9E00B545F7;
+					};
+					963E264B2950BD9F00B545F7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 963E262B2950BD9E00B545F7;
+					};
+				};
+			};
+			buildConfigurationList = 963E26272950BD9E00B545F7 /* Build configuration list for PBXProject "goku-api" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963E26232950BD9E00B545F7;
+			productRefGroup = 963E262D2950BD9E00B545F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963E262B2950BD9E00B545F7 /* goku-api */,
+				963E26412950BD9F00B545F7 /* goku-apiTests */,
+				963E264B2950BD9F00B545F7 /* goku-apiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963E262A2950BD9E00B545F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E263C2950BD9E00B545F7 /* LaunchScreen.storyboard in Resources */,
+				963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */,
+				967390C52951DBF500CAE8DA /* TableCell.xib in Resources */,
+				963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E26402950BD9F00B545F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E264A2950BD9F00B545F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963E26282950BD9E00B545F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */,
+				963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */,
+				967390C42951DBF500CAE8DA /* TableCell.swift in Sources */,
+				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E263E2950BD9F00B545F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E26472950BD9F00B545F7 /* goku_apiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963E26482950BD9F00B545F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E26532950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift in Sources */,
+				963E26512950BD9F00B545F7 /* goku_apiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963E26442950BD9F00B545F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963E262B2950BD9E00B545F7 /* goku-api */;
+			targetProxy = 963E26432950BD9F00B545F7 /* PBXContainerItemProxy */;
+		};
+		963E264E2950BD9F00B545F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963E262B2950BD9E00B545F7 /* goku-api */;
+			targetProxy = 963E264D2950BD9F00B545F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963E263A2950BD9E00B545F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963E263B2950BD9E00B545F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963E26542950BD9F00B545F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		963E26552950BD9F00B545F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963E26572950BD9F00B545F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "goku-api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963E26582950BD9F00B545F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "goku-api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		963E265A2950BD9F00B545F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-apiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goku-api.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/goku-api";
+			};
+			name = Debug;
+		};
+		963E265B2950BD9F00B545F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-apiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goku-api.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/goku-api";
+			};
+			name = Release;
+		};
+		963E265D2950BD9F00B545F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-apiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "goku-api";
+			};
+			name = Debug;
+		};
+		963E265E2950BD9F00B545F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davinamedina.goku-apiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "goku-api";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963E26272950BD9E00B545F7 /* Build configuration list for PBXProject "goku-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E26542950BD9F00B545F7 /* Debug */,
+				963E26552950BD9F00B545F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963E26562950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E26572950BD9F00B545F7 /* Debug */,
+				963E26582950BD9F00B545F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963E26592950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-apiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E265A2950BD9F00B545F7 /* Debug */,
+				963E265B2950BD9F00B545F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963E265C2950BD9F00B545F7 /* Build configuration list for PBXNativeTarget "goku-apiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E265D2950BD9F00B545F7 /* Debug */,
+				963E265E2950BD9F00B545F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963E26242950BD9E00B545F7 /* Project object */;
+}
