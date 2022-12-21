@@ -24,9 +24,7 @@ class HomeTabBarController: UITabBarController {
         
         let collectionViewController = CollectionViewController()
         let tabImg = UIImage(systemName: "square.grid.3x3.topleft.filled")!
-        collectionViewController.tabBarItem = UITabBarItem(title: "CollectionView", image: tabImage, tag:1)
-        
-        
+        collectionViewController.tabBarItem = UITabBarItem(title: "CollectionView", image: tabImg, tag: 1)
         viewControllers = [tableViewController, collectionViewController]
     }
     
