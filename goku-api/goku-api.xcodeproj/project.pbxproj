@@ -23,6 +23,8 @@
 		9680215829520A5400783ABB /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9680215629520A5400783ABB /* CollectionViewController.xib */; };
 		9680215C295317EF00783ABB /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680215A295317EF00783ABB /* CollectionCell.swift */; };
 		9680215D295317EF00783ABB /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9680215B295317EF00783ABB /* CollectionCell.xib */; };
+		968021612955F59B00783ABB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680215F2955F59B00783ABB /* LoginViewController.swift */; };
+		968021622955F59B00783ABB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968021602955F59B00783ABB /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		9680215629520A5400783ABB /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 		9680215A295317EF00783ABB /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		9680215B295317EF00783ABB /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		9680215F2955F59B00783ABB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		968021602955F59B00783ABB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9680214E2952021C00783ABB /* HomeTabBar */,
+				9680215E2955F56000783ABB /* LoginView */,
 				963E26642950BF8F00B545F7 /* TableView */,
 				963E26652950BF9A00B545F7 /* CollectionView */,
 			);
@@ -202,6 +207,15 @@
 				9680215B295317EF00783ABB /* CollectionCell.xib */,
 			);
 			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		9680215E2955F56000783ABB /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				9680215F2955F59B00783ABB /* LoginViewController.swift */,
+				968021602955F59B00783ABB /* LoginViewController.xib */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +327,7 @@
 				963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */,
 				9680215D295317EF00783ABB /* CollectionCell.xib in Resources */,
 				967390C52951DBF500CAE8DA /* TableCell.xib in Resources */,
+				968021622955F59B00783ABB /* LoginViewController.xib in Resources */,
 				963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +357,7 @@
 				963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */,
 				963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */,
 				967390C42951DBF500CAE8DA /* TableCell.swift in Sources */,
+				968021612955F59B00783ABB /* LoginViewController.swift in Sources */,
 				9680215C295317EF00783ABB /* CollectionCell.swift in Sources */,
 				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
 				968021502952026200783ABB /* HomeTabBarController.swift in Sources */,

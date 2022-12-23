@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class CollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
    
     
   
@@ -45,7 +45,16 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         cell.titleLabel.text = customItem.text
         
         return cell
+    }
+    
+    //modifica celdas
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let itemsInRow: CGFloat = 2
+        let spacing: CGFloat = 12 //12 puntos de celda a celda horizontalmente
+        let totalSpacing: CGFloat = (itemsInRow - 1) * spacing
+        let finalWidth = (collectionView.frame.width - totalSpacing) / itemsInRow
         
+        return CGSize(width: finalWidth, height: 100)
     }
     
 }

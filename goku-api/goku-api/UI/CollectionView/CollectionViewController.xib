@@ -20,9 +20,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="hRU-pS-4RI">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <rect key="frame" x="16" y="59" width="361" height="759"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lpP-B2-3v0">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="12" minimumInteritemSpacing="0.0" id="lpP-B2-3v0">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -33,10 +33,10 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="hRU-pS-4RI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6zz-5B-wXK"/>
+                <constraint firstItem="hRU-pS-4RI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6zz-5B-wXK"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hRU-pS-4RI" secondAttribute="bottom" id="itA-ue-3vw"/>
                 <constraint firstItem="hRU-pS-4RI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nn3-GG-NRt"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hRU-pS-4RI" secondAttribute="trailing" id="xlm-5m-d6F"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hRU-pS-4RI" secondAttribute="trailing" constant="16" id="xlm-5m-d6F"/>
             </constraints>
             <point key="canvasLocation" x="77" y="-11"/>
         </view>
