@@ -12,7 +12,7 @@
             <connections>
                 <outlet property="emailTextField" destination="h41-bX-a88" id="ZkN-bk-jTg"/>
                 <outlet property="loginButton" destination="Laf-DW-1Am" id="s7S-wO-AQM"/>
-                <outlet property="passwordTextField" destination="Z16-wv-4oh" id="dio-r5-tiG"/>
+                <outlet property="passwordTextField" destination="IyI-MF-yO8" id="7q6-2W-jQB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -25,6 +25,9 @@
 		9680215D295317EF00783ABB /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9680215B295317EF00783ABB /* CollectionCell.xib */; };
 		968021612955F59B00783ABB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680215F2955F59B00783ABB /* LoginViewController.swift */; };
 		968021622955F59B00783ABB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968021602955F59B00783ABB /* LoginViewController.xib */; };
+		968021652956094300783ABB /* LocalDataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968021642956094300783ABB /* LocalDataLayer.swift */; };
+		968021672956097E00783ABB /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968021662956097E00783ABB /* NetworkLayer.swift */; };
+		9680216A29560B0A00783ABB /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680216929560B0A00783ABB /* Heroe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		9680215B295317EF00783ABB /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		9680215F2955F59B00783ABB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		968021602955F59B00783ABB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		968021642956094300783ABB /* LocalDataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataLayer.swift; sourceTree = "<group>"; };
+		968021662956097E00783ABB /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		9680216929560B0A00783ABB /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +123,10 @@
 		963E262E2950BD9E00B545F7 /* goku-api */ = {
 			isa = PBXGroup;
 			children = (
-				963E26612950BED300B545F7 /* UI */,
+				9680216829560ABE00783ABB /* Models */,
+				968021632956091300783ABB /* Managers */,
 				963E265F2950BEB000B545F7 /* App */,
+				963E26612950BED300B545F7 /* UI */,
 				963E26382950BD9E00B545F7 /* Assets.xcassets */,
 				963E263A2950BD9E00B545F7 /* LaunchScreen.storyboard */,
 				963E263D2950BD9E00B545F7 /* Info.plist */,
@@ -216,6 +224,23 @@
 				968021602955F59B00783ABB /* LoginViewController.xib */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		968021632956091300783ABB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				968021642956094300783ABB /* LocalDataLayer.swift */,
+				968021662956097E00783ABB /* NetworkLayer.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9680216829560ABE00783ABB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9680216929560B0A00783ABB /* Heroe.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,12 +379,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9680215729520A5400783ABB /* CollectionViewController.swift in Sources */,
+				9680216A29560B0A00783ABB /* Heroe.swift in Sources */,
 				963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */,
 				963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */,
+				968021652956094300783ABB /* LocalDataLayer.swift in Sources */,
 				967390C42951DBF500CAE8DA /* TableCell.swift in Sources */,
 				968021612955F59B00783ABB /* LoginViewController.swift in Sources */,
 				9680215C295317EF00783ABB /* CollectionCell.swift in Sources */,
 				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
+				968021672956097E00783ABB /* NetworkLayer.swift in Sources */,
 				968021502952026200783ABB /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
