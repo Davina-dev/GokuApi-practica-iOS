@@ -9,41 +9,52 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customTableCell" rowHeight="124" id="KGk-i7-Jjw" customClass="TableCell" customModule="goku_api" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="427" height="124"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customTableCell" rowHeight="120" id="KGk-i7-Jjw" customClass="TableCell" customModule="goku_api" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="115"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="427" height="124"/>
+                <rect key="frame" x="0.0" y="0.0" width="427" height="115"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-J6-NYZ">
-                        <rect key="frame" x="16" y="32" width="60" height="60"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-J6-NYZ">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="154"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="60" id="Wac-C8-NKl"/>
-                            <constraint firstAttribute="width" constant="60" id="rim-mt-pth"/>
+                            <constraint firstAttribute="width" constant="160" id="rim-mt-pth"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfQ-yj-VLq">
-                        <rect key="frame" x="86" y="51.666666666666664" width="321" height="20.999999999999993"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                        <rect key="frame" x="168" y="15.999999999999998" width="239" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqs-FA-uxW">
+                        <rect key="frame" x="168" y="36.333333333333336" width="251" height="68.666666666666657"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="mfQ-yj-VLq" firstAttribute="leading" secondItem="pbu-J6-NYZ" secondAttribute="trailing" constant="10" id="35r-5Q-bX6"/>
+                    <constraint firstItem="mfQ-yj-VLq" firstAttribute="leading" secondItem="pbu-J6-NYZ" secondAttribute="trailing" constant="8" id="Eh7-Ue-90F"/>
+                    <constraint firstAttribute="trailing" secondItem="Eqs-FA-uxW" secondAttribute="trailing" constant="8" id="HP2-8T-3Ox"/>
+                    <constraint firstAttribute="bottom" secondItem="Eqs-FA-uxW" secondAttribute="bottom" constant="10" id="JMY-TJ-Fqj"/>
                     <constraint firstAttribute="trailing" secondItem="mfQ-yj-VLq" secondAttribute="trailing" constant="20" id="Lgc-CT-lkq"/>
-                    <constraint firstItem="pbu-J6-NYZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WPx-Pu-FwT"/>
-                    <constraint firstItem="pbu-J6-NYZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="c7m-WS-oTk"/>
-                    <constraint firstItem="mfQ-yj-VLq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dQS-Xb-VyJ"/>
+                    <constraint firstItem="Eqs-FA-uxW" firstAttribute="leading" secondItem="pbu-J6-NYZ" secondAttribute="trailing" constant="8" id="aVi-mS-9xC"/>
+                    <constraint firstItem="pbu-J6-NYZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="atH-9F-pHE"/>
+                    <constraint firstItem="mfQ-yj-VLq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="bay-nr-3df"/>
+                    <constraint firstItem="pbu-J6-NYZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="c7m-WS-oTk"/>
+                    <constraint firstItem="Eqs-FA-uxW" firstAttribute="top" secondItem="mfQ-yj-VLq" secondAttribute="bottom" id="mu4-Zz-Pcg"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="descLabel" destination="Eqs-FA-uxW" id="15j-zB-Y0q"/>
                 <outlet property="iconImageView" destination="pbu-J6-NYZ" id="H25-Zu-UKr"/>
                 <outlet property="titleLabel" destination="mfQ-yj-VLq" id="AkM-8A-2Ma"/>
             </connections>
-            <point key="canvasLocation" x="209.92366412213741" y="23.239436619718312"/>
+            <point key="canvasLocation" x="206.87022900763358" y="17.253521126760564"/>
         </tableViewCell>
     </objects>
 </document>

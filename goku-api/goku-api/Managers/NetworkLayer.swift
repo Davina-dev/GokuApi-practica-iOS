@@ -3,7 +3,7 @@
 //  goku-api
 //
 //  Created by Davina Medina Ramirez on 23/12/22.
-//-> Llamamos a la api
+//-> ¡¡¡ Capa dee llamar a la API !!!
 
 
 import Foundation
@@ -21,6 +21,7 @@ final class NetworkLayer {
     static let shared = NetworkLayer()
     
     func login(email: String, password: String, completion: @escaping (String?, Error?) -> Void){
+        //url
         guard let url = URL(string: "https://dragonball.keepcoding.education/api/auth/login") else {
             completion(nil, NetworkError.malformedURL)
             return
@@ -34,7 +35,7 @@ final class NetworkLayer {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
         urlRequest.setValue("Basic \(base64)", forHTTPHeaderField: "Authorization")
-
+        
         let task = URLSession.shared.dataTask(with: urlRequest){ data, response, error in
             
             guard error == nil else {completion(nil, error)
@@ -62,4 +63,50 @@ final class NetworkLayer {
         }
         task.resume()
     }
+    
+    // ¿funcion dsloguear???? BUSCAR
+    
+    
+    //post lista heroer
+    func fetchHeroes(token : String?, completion: @escaping ([Heroe]?, Error?)-> Void){
+        //url
+        guard let url = URL(string: "https://dragonball.keepcoding.education/api/heros/all") else {
+            completion(nil, NetworkError.malformedURL)
+            return
+        }
+        
+        // en método post para traer heroes necesitamos pasar parámetro obligatorio a la query
+        var urlComponnts = URLComponents()
+        urlComponnts.queryItems = [URLQueryItem(name: "name", value: "")]
+        
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = "POST"
+        urlRequest.setValue("Bearer \(token ?? "")", forHTTPHeaderField: "Authorization")
+        urlRequest.httpBody = urlComponnts.query?.data(using: .utf8)
+        
+        let task = URLSession.shared.dataTask(with: urlRequest) { data, _, error in
+            guard error == nil else {
+                completion(nil, error)
+                return
+            }
+            //comprovar que tenemos data
+            guard let data = data else {
+                completion(nil, NetworkError.noData)
+                return
+            }
+            
+            guard let heroes = try? JSONDecoder().decode([Heroe].self, from: data) else{
+                completion(nil, NetworkError.decodingFailed)
+                return
+            }
+            // Yu.huu!
+            completion(heroes, nil)
+        }
+        
+        task.resume()
+    }
+    
+    
+    
+    
 }
