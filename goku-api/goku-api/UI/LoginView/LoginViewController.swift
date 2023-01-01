@@ -20,6 +20,24 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool){
+        super.viewDidAppear(animated)
+        
+        emailTextField.center.x -= view.bounds.width
+        passwordTextField.center.x -= view.bounds.width
+        loginButton.alpha = 0
+        
+        UIView.animate(withDuration:2.5, delay: 0,usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: []){
+            self.emailTextField.center.x += self.view.bounds.width
+        }
+        UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: []){
+            self.passwordTextField.center.x += self.view.bounds.width
+        }
+        UIView.animate(withDuration: 3){
+            self.loginButton.alpha = 1
+        }
+    }
+    
     @IBAction func loginButtonTapped(_ sender: Any) {
         
         guard let email = emailTextField.text, !email.isEmpty else {

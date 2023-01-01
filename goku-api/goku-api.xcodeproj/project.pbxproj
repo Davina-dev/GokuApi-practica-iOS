@@ -16,6 +16,8 @@
 		963E26532950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */; };
 		963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E266A2950C44D00B545F7 /* TableViewcontroller.swift */; };
 		963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963E266B2950C44D00B545F7 /* TableViewcontroller.xib */; };
+		9645F7D82961EF2A00544E90 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9645F7D62961EF2A00544E90 /* DetailsViewController.swift */; };
+		9645F7D92961EF2A00544E90 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9645F7D72961EF2A00544E90 /* DetailsViewController.xib */; };
 		967390C42951DBF500CAE8DA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967390C22951DBF500CAE8DA /* TableCell.swift */; };
 		967390C52951DBF500CAE8DA /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967390C32951DBF500CAE8DA /* TableCell.xib */; };
 		968021502952026200783ABB /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680214F2952026200783ABB /* HomeTabBarController.swift */; };
@@ -61,6 +63,8 @@
 		963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		963E266A2950C44D00B545F7 /* TableViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewcontroller.swift; sourceTree = "<group>"; };
 		963E266B2950C44D00B545F7 /* TableViewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewcontroller.xib; sourceTree = "<group>"; };
+		9645F7D62961EF2A00544E90 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9645F7D72961EF2A00544E90 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		967390C22951DBF500CAE8DA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		967390C32951DBF500CAE8DA /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
 		9680214F2952026200783ABB /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 		963E26612950BED300B545F7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9645F7D52961EF0500544E90 /* DetailsView */,
 				9680214E2952021C00783ABB /* HomeTabBar */,
 				9680215E2955F56000783ABB /* LoginView */,
 				963E26642950BF8F00B545F7 /* TableView */,
@@ -190,6 +195,15 @@
 				9680215629520A5400783ABB /* CollectionViewController.xib */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		9645F7D52961EF0500544E90 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9645F7D62961EF2A00544E90 /* DetailsViewController.swift */,
+				9645F7D72961EF2A00544E90 /* DetailsViewController.xib */,
+			);
+			path = DetailsView;
 			sourceTree = "<group>";
 		};
 		967390C12951DBAC00CAE8DA /* TableCell */ = {
@@ -355,6 +369,7 @@
 				967390C52951DBF500CAE8DA /* TableCell.xib in Resources */,
 				968021622955F59B00783ABB /* LoginViewController.xib in Resources */,
 				963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */,
+				9645F7D92961EF2A00544E90 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +405,7 @@
 				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
 				968021672956097E00783ABB /* NetworkLayer.swift in Sources */,
 				968021502952026200783ABB /* HomeTabBarController.swift in Sources */,
+				9645F7D82961EF2A00544E90 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

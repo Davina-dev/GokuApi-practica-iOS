@@ -23,6 +23,8 @@ class TableViewcontroller: UIViewController, UITableViewDataSource, UITableViewD
         tableView.delegate = self
         tableView.dataSource = self
         
+        navigationItem.title = "Heroes"
+        
         let xib = UINib(nibName: "TableCell", bundle: nil)
         tableView.register(xib, forCellReuseIdentifier: "customTableCell")
         
@@ -68,18 +70,17 @@ class TableViewcontroller: UIViewController, UITableViewDataSource, UITableViewD
         //jugamos con altura celda
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 130   }
-    
-/*   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let heroe = heroes[indexPath.row]
         let detailsView = DetailsViewController()
-        detailsView.heroe = heroe
         navigationController?.pushViewController(detailsView, animated: true)
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         //
     }
- */
+ 
 }
 
     

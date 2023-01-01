@@ -30,6 +30,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        navigationItem.title = "Heroes"
+        
         let xib = UINib(nibName: "CollectionCell", bundle: nil)
         collectionView.register(xib, forCellWithReuseIdentifier: "customCollectionCell")
     }
