@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,33 +20,42 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-zw-Zty">
                         <rect key="frame" x="0.0" y="0.0" width="296" height="118"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vOt-X2-Q6r">
-                                <rect key="frame" x="118" y="16" width="60" height="60"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vOt-X2-Q6r">
+                                <rect key="frame" x="0.0" y="0.0" width="296" height="70"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="DfA-GH-qSx"/>
-                                    <constraint firstAttribute="width" constant="60" id="qwf-yv-XKx"/>
+                                    <constraint firstAttribute="height" constant="70" id="DfA-GH-qSx"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-qb-Lmi">
-                                <rect key="frame" x="8" y="84" width="280" height="21"/>
+                                <rect key="frame" x="8" y="72" width="280" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="4dU-zH-vBq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <color key="backgroundColor" red="0.96947616339999998" green="0.97287768129999996" blue="0.96947616339999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.96947616339999998" green="0.97287768129999996" blue="0.96947616339999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gLw-qb-Lmi" firstAttribute="top" secondItem="vOt-X2-Q6r" secondAttribute="bottom" constant="8" id="2Pn-yQ-Muc"/>
-                            <constraint firstItem="vOt-X2-Q6r" firstAttribute="centerX" secondItem="R9F-zw-Zty" secondAttribute="centerX" id="Paq-LW-z1d"/>
+                            <constraint firstItem="gLw-qb-Lmi" firstAttribute="top" secondItem="vOt-X2-Q6r" secondAttribute="bottom" constant="2" id="2Pn-yQ-Muc"/>
+                            <constraint firstAttribute="trailing" secondItem="vOt-X2-Q6r" secondAttribute="trailing" id="H4I-Ek-y5A"/>
+                            <constraint firstAttribute="trailing" secondItem="vOt-X2-Q6r" secondAttribute="trailing" id="RA5-S5-0zr"/>
                             <constraint firstAttribute="trailing" secondItem="gLw-qb-Lmi" secondAttribute="trailing" constant="8" id="TyE-nn-Nv0"/>
+                            <constraint firstItem="vOt-X2-Q6r" firstAttribute="leading" secondItem="R9F-zw-Zty" secondAttribute="leading" id="axN-sb-4QW"/>
                             <constraint firstItem="gLw-qb-Lmi" firstAttribute="leading" secondItem="R9F-zw-Zty" secondAttribute="leading" constant="8" id="frA-f1-jmW"/>
-                            <constraint firstItem="vOt-X2-Q6r" firstAttribute="top" secondItem="R9F-zw-Zty" secondAttribute="top" constant="16" id="koC-yZ-meG"/>
+                            <constraint firstItem="vOt-X2-Q6r" firstAttribute="centerX" secondItem="R9F-zw-Zty" secondAttribute="centerX" id="gq1-1b-spA"/>
+                            <constraint firstItem="vOt-X2-Q6r" firstAttribute="top" secondItem="R9F-zw-Zty" secondAttribute="top" id="idt-Rd-wwf"/>
+                            <constraint firstAttribute="bottom" secondItem="gLw-qb-Lmi" secondAttribute="bottom" constant="8" id="kXy-Ts-Vva"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <color key="backgroundColor" name="AccentColor"/>
+            <color key="backgroundColor" red="0.96947616339999998" green="0.97287768129999996" blue="0.96947616339999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="R9F-zw-Zty" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4GU-sY-DLy"/>
                 <constraint firstAttribute="trailing" secondItem="R9F-zw-Zty" secondAttribute="trailing" id="JDe-ii-bAs"/>
@@ -63,11 +71,8 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

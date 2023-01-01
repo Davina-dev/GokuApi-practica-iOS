@@ -14,15 +14,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let customRows = [
-        CustomItem(image: UIImage(systemName: "pencil.circle")!, text: "lunes"),
-        CustomItem(image: UIImage(systemName: "trash.circle")!, text: "martes"),
-        CustomItem(image: UIImage(systemName: "folder.circle")!, text: "miércoles"),
-        CustomItem(image: UIImage(systemName: "paperplane.circle")!, text: "jueves"),
-        CustomItem(image: UIImage(systemName: "doc.circle")!, text: "viernes"),
-        CustomItem(image: UIImage(systemName: "terminal")!, text: "sábado"),
-        CustomItem(image: UIImage(systemName: "book.closed")!, text: "domingo")
-    ]
+    var heroes: [Heroe] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,20 +23,23 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         collectionView.dataSource = self
         
         navigationItem.title = "Heroes"
+        heroes = LocalDataLayer.shared.getHeroes()
+       
         
         let xib = UINib(nibName: "CollectionCell", bundle: nil)
         collectionView.register(xib, forCellWithReuseIdentifier: "customCollectionCell")
     }
 
+
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return customRows.count    }
+        return heroes.count    }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "customCollectionCell", for: indexPath) as! CollectionCell
-        let customItem = customRows[indexPath.row]
-        cell.iconImageView.image = customItem.image
-        cell.titleLabel.text = customItem.text
+        let heroe = heroes[indexPath.row]
+        cell.iconImageView.setImage(url: heroe.photo)
+        cell.titleLabel.text = heroe.name
         
         return cell
     }

@@ -35,6 +35,7 @@ class TableViewcontroller: UIViewController, UITableViewDataSource, UITableViewD
             
             if let allHeroes = allHeroes  {
                 self.heroes = allHeroes
+                LocalDataLayer.shared.save(heroes: allHeroes)
                 
                 //refresh tableview with new data fetched from the API
                 DispatchQueue.main.async {
