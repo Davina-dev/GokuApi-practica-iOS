@@ -22,7 +22,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        navigationItem.title = "Heroes"
+        navigationItem.title = "Personajes de Dragon Ball"
         heroes = LocalDataLayer.shared.getHeroes()
        
         
@@ -54,4 +54,10 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         return CGSize(width: finalWidth, height: 100)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let heroe = heroes[indexPath.row]
+        let detailsView = DetailsViewController()
+        detailsView.heroe = heroe
+        navigationController?.pushViewController(detailsView, animated: true)
+    }
 }
