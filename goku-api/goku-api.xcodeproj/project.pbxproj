@@ -18,6 +18,9 @@
 		963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963E266B2950C44D00B545F7 /* TableViewcontroller.xib */; };
 		9645F7D82961EF2A00544E90 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9645F7D62961EF2A00544E90 /* DetailsViewController.swift */; };
 		9645F7D92961EF2A00544E90 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9645F7D72961EF2A00544E90 /* DetailsViewController.xib */; };
+		964A99C32963509500B358FF /* Transformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A99C22963509500B358FF /* Transformations.swift */; };
+		964A99C7296356F200B358FF /* TransformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A99C5296356F200B358FF /* TransformationsViewController.swift */; };
+		964A99C8296356F200B358FF /* TransformationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964A99C6296356F200B358FF /* TransformationsViewController.xib */; };
 		967390C42951DBF500CAE8DA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967390C22951DBF500CAE8DA /* TableCell.swift */; };
 		967390C52951DBF500CAE8DA /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967390C32951DBF500CAE8DA /* TableCell.xib */; };
 		968021502952026200783ABB /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680214F2952026200783ABB /* HomeTabBarController.swift */; };
@@ -65,6 +68,9 @@
 		963E266B2950C44D00B545F7 /* TableViewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewcontroller.xib; sourceTree = "<group>"; };
 		9645F7D62961EF2A00544E90 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		9645F7D72961EF2A00544E90 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		964A99C22963509500B358FF /* Transformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformations.swift; sourceTree = "<group>"; };
+		964A99C5296356F200B358FF /* TransformationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsViewController.swift; sourceTree = "<group>"; };
+		964A99C6296356F200B358FF /* TransformationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationsViewController.xib; sourceTree = "<group>"; };
 		967390C22951DBF500CAE8DA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		967390C32951DBF500CAE8DA /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
 		9680214F2952026200783ABB /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
@@ -168,6 +174,7 @@
 		963E26612950BED300B545F7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				964A99C4296356CF00B358FF /* TransformationsView */,
 				9645F7D52961EF0500544E90 /* DetailsView */,
 				9680214E2952021C00783ABB /* HomeTabBar */,
 				9680215E2955F56000783ABB /* LoginView */,
@@ -204,6 +211,15 @@
 				9645F7D72961EF2A00544E90 /* DetailsViewController.xib */,
 			);
 			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		964A99C4296356CF00B358FF /* TransformationsView */ = {
+			isa = PBXGroup;
+			children = (
+				964A99C5296356F200B358FF /* TransformationsViewController.swift */,
+				964A99C6296356F200B358FF /* TransformationsViewController.xib */,
+			);
+			path = TransformationsView;
 			sourceTree = "<group>";
 		};
 		967390C12951DBAC00CAE8DA /* TableCell */ = {
@@ -254,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				9680216929560B0A00783ABB /* Heroe.swift */,
+				964A99C22963509500B358FF /* Transformations.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -363,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963E263C2950BD9E00B545F7 /* LaunchScreen.storyboard in Resources */,
+				964A99C8296356F200B358FF /* TransformationsViewController.xib in Resources */,
 				9680215829520A5400783ABB /* CollectionViewController.xib in Resources */,
 				963E266D2950C44D00B545F7 /* TableViewcontroller.xib in Resources */,
 				9680215D295317EF00783ABB /* CollectionCell.xib in Resources */,
@@ -398,10 +416,12 @@
 				9680216A29560B0A00783ABB /* Heroe.swift in Sources */,
 				963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */,
 				963E26302950BD9E00B545F7 /* AppDelegate.swift in Sources */,
+				964A99C32963509500B358FF /* Transformations.swift in Sources */,
 				968021652956094300783ABB /* LocalDataLayer.swift in Sources */,
 				967390C42951DBF500CAE8DA /* TableCell.swift in Sources */,
 				968021612955F59B00783ABB /* LoginViewController.swift in Sources */,
 				9680215C295317EF00783ABB /* CollectionCell.swift in Sources */,
+				964A99C7296356F200B358FF /* TransformationsViewController.swift in Sources */,
 				963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */,
 				968021672956097E00783ABB /* NetworkLayer.swift in Sources */,
 				968021502952026200783ABB /* HomeTabBarController.swift in Sources */,

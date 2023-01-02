@@ -16,9 +16,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="427" height="115"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-J6-NYZ">
-                        <rect key="frame" x="0.0" y="0.0" width="160" height="154"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-J6-NYZ">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="120"/>
                         <constraints>
+                            <constraint firstAttribute="height" constant="120" id="5V8-BS-6Un"/>
                             <constraint firstAttribute="width" constant="160" id="rim-mt-pth"/>
                         </constraints>
                     </imageView>

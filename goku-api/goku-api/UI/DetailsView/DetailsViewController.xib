@@ -10,6 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailsViewController" customModule="goku_api" customModuleProvider="target">
             <connections>
+                <outlet property="heroeDescLabel" destination="XvG-qD-Rc0" id="l1r-gV-6Rr"/>
+                <outlet property="heroeImageView" destination="enA-vz-bJr" id="UR2-so-x3T"/>
+                <outlet property="heroeNameLabel" destination="yzX-UA-CsD" id="DUF-bG-6Cr"/>
+                <outlet property="transformationButton" destination="pdv-Xc-oHj" id="WFM-YR-lhE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,30 +34,33 @@
                         <constraint firstAttribute="height" constant="220" id="1lH-Ax-pr0"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvG-qD-Rc0">
-                    <rect key="frame" x="50" y="324" width="293" height="200"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="200" id="JJH-EE-lbx"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" systemColor="systemGray2Color"/>
-                    <color key="highlightedColor" systemColor="systemGrayColor"/>
-                </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdv-Xc-oHj">
-                    <rect key="frame" x="96.666666666666686" y="547" width="200" height="50"/>
+                    <rect key="frame" x="71.666666666666686" y="647" width="250" height="40"/>
                     <color key="backgroundColor" systemColor="systemCyanColor"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="I3e-bU-ytK"/>
-                        <constraint firstAttribute="width" constant="200" id="dWa-4z-WxE"/>
+                        <constraint firstAttribute="height" constant="40" id="I3e-bU-ytK"/>
+                        <constraint firstAttribute="width" constant="250" id="dWa-4z-WxE"/>
                     </constraints>
                     <color key="tintColor" red="0.039765640769999999" green="0.042310187149999998" blue="0.19929929120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system" title=" Back">
-                        <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Transformaciones">
+                        <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="23"/>
                         <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="transformationButtonTapped:" destination="-1" eventType="touchUpInside" id="X0A-me-hUC"/>
+                    </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvG-qD-Rc0">
+                    <rect key="frame" x="50" y="319" width="293" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="JJH-EE-lbx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" systemColor="systemGray2Color"/>
+                    <color key="highlightedColor" systemColor="systemGrayColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
@@ -75,7 +82,6 @@
         </view>
     </objects>
     <resources>
-        <image name="arrow.backward" catalog="system" width="128" height="95"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
