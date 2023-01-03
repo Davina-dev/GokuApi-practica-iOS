@@ -1,14 +1,13 @@
 //
-//  goku_apiTests.swift
+//  HeroeTests.swift
 //  goku-apiTests
 //
-//  Created by Davina Medina Ramirez on 19/12/22.
+//  Created by Davina Medina Ramirez on 3/1/23.
 //
 
 import XCTest
-@testable import goku_api
 
-final class goku_apiTests: XCTestCase {
+final class HeroeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
