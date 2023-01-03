@@ -10,7 +10,7 @@
 
 [ - Práctica ](./Practica.pdf) 
 
-[ - Proyecto ](./Goku-Api)
+[ - Proyecto ](./goku-api)
 
 
  # Imágenes del proyecto
