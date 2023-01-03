@@ -5,16 +5,22 @@
 
 
 
- # Práctica 
-
-[- Práctica ](./Practica.pdf) 
-
-[- Proyecto](./goku-api)
+ # Practicando con iOS
 
 
- # Imágenes
- 
- 
+[ - Práctica ](./Practica.pdf) 
+
+[ - Proyecto ](./Goku-Api)
+
+
+ # Imágenes del proyecto
+ <p align="center" >
+ <img style={ width=15%}  src="./projectImages/login.png"/>
+ <img style={ width=15%}  src="./projectImages/collectionView.png"/>
+ <img style={ width=15%}  src="./projectImages/tableView.png"/>
+ <img style={ width=15%}  src="./projectImages/details.png"/>
+ <img style={ width=15%}  src="./projectImages/transformations.png"/>
+
 
 __________
   ⌨️ with ❤️ by [Davina](https://www.linkedin.com/in/davinamedina/) 😊
