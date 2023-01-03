@@ -9,27 +9,56 @@ import XCTest
 
 final class HeroeTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var heroe: Heroe!
+    
+    override func setUp(){
+      super.setUp()
+        
+        heroe = Heroe(id: "1",
+                      name: "Goku",
+                      photo: "https://www.keepcoding.io",
+                      description: "Goku description",
+                      favorite: false)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown(){
+        heroe = nil
+      super.tearDown()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func test_heroe_id(){
+        XCTAssertNotNil(heroe.id)
+        XCTAssertEqual(heroe.id, "1")
+        XCTAssertNotEqual(heroe.id, "8")
+    }
+    
+    func test_heroe_name() {
+        XCTAssertNotNil(heroe.name)
+        XCTAssertEqual(heroe.name, "Goku")
+        XCTAssertNotEqual(heroe.name, "Vegeta")
+    }
+    
+    func test_heroe_photo() {
+        let url = URL(string: heroe.photo)
+        
+        XCTAssertNotNil(heroe.photo)
+        XCTAssertEqual(heroe.photo, "https://www.keepcoding.io")
+        XCTAssertNotEqual(heroe.photo, "https://www.keepcoding.com")
+        
+        // TODO: - Check this one!
+        XCTAssertNotNil(url?.absoluteURL)
+    }
+    
+    func test_heroe_description() {
+        XCTAssertNotNil(heroe.description)
+        XCTAssertEqual(heroe.description, "Goku description")
+        XCTAssertNotEqual(heroe.description, "Goku alwaySS win!!!")
+    }
+    
+    func test_heroe_favorite() {
+        XCTAssertNotNil(heroe.favorite)
+        XCTAssertEqual(heroe.favorite, false)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
 
 }

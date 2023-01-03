@@ -37,6 +37,9 @@ class TableViewcontroller: UIViewController, UITableViewDataSource, UITableViewD
                 self.heroes = allHeroes
                 LocalDataLayer.shared.save(heroes: allHeroes)
                 
+                //al recibir todos los heroes envío esta notificación
+                NotificationCenter.default.post(Notification(name: Notification.Name("fetchHeroes")))
+                
                 //refresh tableview with new data fetched from the API
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
@@ -79,9 +82,7 @@ class TableViewcontroller: UIViewController, UITableViewDataSource, UITableViewD
         navigationController?.pushViewController(detailsView, animated: true)
     }
     
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        //
-    }
+ 
  
 }
 

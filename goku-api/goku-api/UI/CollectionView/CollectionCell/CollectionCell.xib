@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="296" height="118"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-zw-Zty">
-                        <rect key="frame" x="0.0" y="0.0" width="296" height="132"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-zw-Zty">
+                        <rect key="frame" x="0.0" y="0.0" width="296" height="118"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vOt-X2-Q6r">
                                 <rect key="frame" x="0.0" y="0.0" width="296" height="80"/>
@@ -60,6 +60,7 @@
                 <constraint firstItem="R9F-zw-Zty" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4GU-sY-DLy"/>
                 <constraint firstAttribute="trailing" secondItem="R9F-zw-Zty" secondAttribute="trailing" id="JDe-ii-bAs"/>
                 <constraint firstItem="R9F-zw-Zty" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XQ5-LO-fwJ"/>
+                <constraint firstAttribute="bottom" secondItem="R9F-zw-Zty" secondAttribute="bottom" id="Xg6-oS-1QJ"/>
             </constraints>
             <size key="customSize" width="296" height="118"/>
             <connections>

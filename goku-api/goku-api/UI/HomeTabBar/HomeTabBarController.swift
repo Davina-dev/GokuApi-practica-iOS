@@ -15,6 +15,15 @@ class HomeTabBarController: UITabBarController {
         setupLayout()
         setupTabs()
         
+        NotificationCenter.default.addObserver(self, selector: #selector(fetchHeroes), name: Notification.Name("fetchHeroes"), object: nil)
+    }
+    
+    @objc func fetchHeroes(){
+        print("Looking for new heroes from HomeTableController")
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     private func setupTabs(){

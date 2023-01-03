@@ -11,7 +11,6 @@
 		963E26322950BD9E00B545F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26312950BD9E00B545F7 /* SceneDelegate.swift */; };
 		963E26392950BD9E00B545F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963E26382950BD9E00B545F7 /* Assets.xcassets */; };
 		963E263C2950BD9E00B545F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963E263A2950BD9E00B545F7 /* LaunchScreen.storyboard */; };
-		963E26472950BD9F00B545F7 /* goku_apiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26462950BD9F00B545F7 /* goku_apiTests.swift */; };
 		963E26512950BD9F00B545F7 /* goku_apiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26502950BD9F00B545F7 /* goku_apiUITests.swift */; };
 		963E26532950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */; };
 		963E266C2950C44D00B545F7 /* TableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E266A2950C44D00B545F7 /* TableViewcontroller.swift */; };
@@ -21,6 +20,8 @@
 		964A99C32963509500B358FF /* Transformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A99C22963509500B358FF /* Transformations.swift */; };
 		964A99C7296356F200B358FF /* TransformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A99C5296356F200B358FF /* TransformationsViewController.swift */; };
 		964A99C8296356F200B358FF /* TransformationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964A99C6296356F200B358FF /* TransformationsViewController.xib */; };
+		964A99CF2963672200B358FF /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680216929560B0A00783ABB /* Heroe.swift */; };
+		964A99D02963672700B358FF /* Transformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A99C22963509500B358FF /* Transformations.swift */; };
 		967390C42951DBF500CAE8DA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967390C22951DBF500CAE8DA /* TableCell.swift */; };
 		967390C52951DBF500CAE8DA /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967390C32951DBF500CAE8DA /* TableCell.xib */; };
 		968021502952026200783ABB /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680214F2952026200783ABB /* HomeTabBarController.swift */; };
@@ -33,6 +34,8 @@
 		968021652956094300783ABB /* LocalDataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968021642956094300783ABB /* LocalDataLayer.swift */; };
 		968021672956097E00783ABB /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968021662956097E00783ABB /* NetworkLayer.swift */; };
 		9680216A29560B0A00783ABB /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680216929560B0A00783ABB /* Heroe.swift */; };
+		96B432132964363A00D7A0B2 /* HeroeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B432122964363A00D7A0B2 /* HeroeTests.swift */; };
+		96B4321529643B2F00D7A0B2 /* TransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4321429643B2F00D7A0B2 /* TransformationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +63,6 @@
 		963E263B2950BD9E00B545F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963E263D2950BD9E00B545F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963E26422950BD9F00B545F7 /* goku-apiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goku-apiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		963E26462950BD9F00B545F7 /* goku_apiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiTests.swift; sourceTree = "<group>"; };
 		963E264C2950BD9F00B545F7 /* goku-apiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goku-apiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E26502950BD9F00B545F7 /* goku_apiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiUITests.swift; sourceTree = "<group>"; };
 		963E26522950BD9F00B545F7 /* goku_apiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku_apiUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -83,6 +85,8 @@
 		968021642956094300783ABB /* LocalDataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataLayer.swift; sourceTree = "<group>"; };
 		968021662956097E00783ABB /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		9680216929560B0A00783ABB /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		96B432122964363A00D7A0B2 /* HeroeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeTests.swift; sourceTree = "<group>"; };
+		96B4321429643B2F00D7A0B2 /* TransformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +152,8 @@
 		963E26452950BD9F00B545F7 /* goku-apiTests */ = {
 			isa = PBXGroup;
 			children = (
-				963E26462950BD9F00B545F7 /* goku_apiTests.swift */,
+				96B432122964363A00D7A0B2 /* HeroeTests.swift */,
+				96B4321429643B2F00D7A0B2 /* TransformationTests.swift */,
 			);
 			path = "goku-apiTests";
 			sourceTree = "<group>";
@@ -433,7 +438,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963E26472950BD9F00B545F7 /* goku_apiTests.swift in Sources */,
+				96B432132964363A00D7A0B2 /* HeroeTests.swift in Sources */,
+				964A99D02963672700B358FF /* Transformations.swift in Sources */,
+				96B4321529643B2F00D7A0B2 /* TransformationTests.swift in Sources */,
+				964A99CF2963672200B358FF /* Heroe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
