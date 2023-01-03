@@ -5,14 +5,20 @@
 
 
 
- # Práctica 
+ # Practicando con iOS
+
+[ - Práctica ](./Practica.pdf) 
+
+[ - Proyecto ](./Goku-Api)
 
 
-
-[ <img style={ width=5%}  src="https://media2.giphy.com/media/dieGgjBPDS9jy/giphy.webp?cid=ecf05e473djor0yx8e2bdujbplhfnea8z52wwsfsn4jbnzjs&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>
-...¿Qué necesitamos?... ](./Practica.pdf) 
-
-[   <img style={ width=5%}  src="https://media4.giphy.com/media/1S5zDKW1VFAUU/giphy.webp?cid=ecf05e47n0bu1wieyj0yxo1s56kr5hb6hg3x0k09tv76rpxd&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>... Proyecto...](./Goku-Api)
+ # Imágenes del proyecto
+ <p align="center" >
+ <img style={ width=15%}  src="./projectImages/login.png"/>
+ <img style={ width=15%}  src="./projectImages/collectionView.png"/>
+ <img style={ width=15%}  src="./projectImages/tableView.png"/>
+ <img style={ width=15%}  src="./projectImages/details.png"/>
+ <img style={ width=15%}  src="./projectImages/transformations.png"/>
 
 __________
   ⌨️ with ❤️ by [Davina](https://www.linkedin.com/in/davinamedina/) 😊
