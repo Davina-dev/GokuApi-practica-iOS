@@ -5,7 +5,7 @@
 
 
 
- # Practicando con iOS
+ # App móvil iOS que consume la API Rest Dragon Ball
 
 
 [ - Práctica ](./Practica.pdf) 
