@@ -7,6 +7,7 @@
 
  # Practicando con iOS
 
+
 [ - Práctica ](./Practica.pdf) 
 
 [ - Proyecto ](./Goku-Api)
@@ -19,6 +20,7 @@
  <img style={ width=15%}  src="./projectImages/tableView.png"/>
  <img style={ width=15%}  src="./projectImages/details.png"/>
  <img style={ width=15%}  src="./projectImages/transformations.png"/>
+
 
 __________
   ⌨️ with ❤️ by [Davina](https://www.linkedin.com/in/davinamedina/) 😊
