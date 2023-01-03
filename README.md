@@ -7,12 +7,14 @@
 
  # Práctica 
 
+[- Práctica ](./Practica.pdf) 
+
+[- Proyecto](./goku-api)
 
 
-[ <img style={ width=5%}  src="https://media2.giphy.com/media/dieGgjBPDS9jy/giphy.webp?cid=ecf05e473djor0yx8e2bdujbplhfnea8z52wwsfsn4jbnzjs&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>
-...¿Qué necesitamos?... ](./Practica.pdf) 
-
-[   <img style={ width=5%}  src="https://media4.giphy.com/media/1S5zDKW1VFAUU/giphy.webp?cid=ecf05e47n0bu1wieyj0yxo1s56kr5hb6hg3x0k09tv76rpxd&rid=giphy.webp&ct=g" alt="alt text" title="GIT"/>... Proyecto...](./goku-api)
+ # Imágenes
+ 
+ 
 
 __________
   ⌨️ with ❤️ by [Davina](https://www.linkedin.com/in/davinamedina/) 😊
